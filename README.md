@@ -37,7 +37,7 @@ ACTIVE HOVER STATES:
 ### Links
 
 - Solution URL: [solution](https://github.com/vaibhavi-m/NFT-preview-card)
-- Live Site URL: []()
+- Live Site URL: [live site](https://vaibhavi-m.github.io/NFT-preview/)
 
 ## My process
 
