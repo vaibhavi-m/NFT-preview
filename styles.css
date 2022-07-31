@@ -1,0 +1,138 @@
+body{
+  font-family: 'Outfit',sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+.body{
+  font-family: 'Outfit',sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  background-color:  hsl(216, 50%, 16%);
+  margin-top: 5em;
+  width: 24em;
+  height:40em;
+  border-radius: 15px;
+  align-items: center;
+}
+.image-add{
+  border-radius: 3em;
+  padding: 2em;
+  width: 20em;
+  position: relative;
+}
+.Equilibrium{
+  font-weight: 600;
+  padding-left: 1.2em;
+  color: hsl(0,0%,100%);
+  font-size: 25px;
+  padding-bottom: 10px;;
+}
+.content{
+  padding: 0 1.5em 0 1.5em;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.price{
+  font-weight: 400;
+  position: relative;
+  padding: 0 1.5em 0 1.5em;
+  margin-left: 5px;
+}
+.ETH{
+  position: absolute;
+  left:46px;
+  bottom: -16px;
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+.clock-image{
+  position: absolute;
+  left: 12em;
+}
+.time{
+  color: hsl(215, 51%, 70%);
+  position: absolute;
+  font-size: 19px;
+  left: 11.4em;
+  bottom: -16px;
+}
+hr{
+  color: hsl(215, 32%, 27%);
+  margin:  1.5em 1.5em 0 1.5em;
+
+}
+.create{
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.create img{
+  margin-left: 2em;
+  width: 2em;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.name{
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  position: absolute;
+  left: 79px;
+  bottom: -8px;
+}
+.name span{
+  padding-left: 0.3em;
+  color: hsl(0,0%,100%);
+}
+.name span:hover{
+  color: hsl(178, 100%, 50%);
+}
+.Equilibrium:hover{
+  color: hsl(178, 100%, 50%);
+}
+.image{
+  display: block;
+  height: 22em;
+}
+.overlay{
+  position: absolute;
+  top:7.5em;
+  margin-left: 2em;
+  background-color: hsl(178,100%,50%,50%);
+  width:20em;
+  height:20em;
+  z-index: 999;
+  opacity: 0;
+}
+.view{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.overlay:hover{
+  opacity: 1;
+  cursor: pointer;
+  transition: .5s ease;
+}
+@media (min-width: 200px) and (max-width: 1000px) {
+  .box{
+    margin: 3.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 22em;
+  }
+  .image-add{
+    width:18em;
+  }
+  .overlay{
+    top:6em;
+    width:18em;
+    height:18em;
+  }
+}
